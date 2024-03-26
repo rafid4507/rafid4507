@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi, Thanks for visiting. I am glad that I made it this far to grow some interest in you. Now I am looking forward to meet you in the interview room. And excited to discuss more face to face.
 
 <!--
 **rafid4507/rafid4507** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

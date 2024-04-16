@@ -1,4 +1,4 @@
-### Hi, I am glad that I made it this far to grow some interest in you. Now I am looking forward to meet you in the interview room. And excited to discuss more face to face.
+### Hi, I am glad that I made it this far to grow some interest in you. Let me know if you have any inquiries. And I am excited to hear from you.
 
 <!--
 **rafid4507/rafid4507** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

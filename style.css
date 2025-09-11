@@ -1,5 +1,5 @@
 /*
-Theme Name: Portf HTML Template
+Theme Name: Portf
 Theme URI: https://templatesjungle.com/
 Author: TemplatesJungle
 Author URI: https://templatesjungle.com/
@@ -74,7 +74,7 @@ CSS STRUCTURE:
     - Nav Sidebar
   6.3 Billboard
   6.4 About Me Section
-  6.5 Portfolio Section
+  6.5 Portfolio Section: projects
   6.6 Quotation Section
   6.7 Achievement Section
   6.8 Post Grid Section
@@ -727,6 +727,7 @@ blockquote cite {
   align-items: center;
 }
 
+
 .loader {
   display: inline-block;
   width: 100px;
@@ -885,10 +886,73 @@ blockquote cite {
 
 /*----- Nav Sidebar
 --------------------------------------------------------------*/
+/* Fix extra space around navbar */
+/* Navigation Bar Styling */
+#header, 
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000; 
+  background-color: #ffffff; /* white background */
+  margin: 0;
+  padding: 0;
+  height: 60px; /* control navbar height */
+  display: flex;
+  align-items: center; /* vertically center logo + links */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05); /* subtle shadow */
+}
+
+/* Adjust logo inside navbar */
+#header .main-logo img {
+  max-height: 40px; /* make logo smaller */
+  width: auto;
+}
+
+/* Navigation links */
+#header .navbar-nav .nav-link {
+  padding: 10px 15px; /* less vertical padding */
+  font-size: 16px;
+  color: #000; /* black text for contrast */
+}
+
+/* Active or hover link */
+#header .navbar-nav .nav-link:hover,
+#header .navbar-nav .nav-link.active {
+  color: var(--accent-color); /* your theme accent color */
+}
+
+/* Push page content down so it's not hidden behind navbar */
+body {
+  padding-top: 50px; /* equal to navbar height */
+}
+
+
+
+
+
+
+
+
+
+
+/* --
 .nav-overlay {
   position: fixed;
   top: 0;
   z-index: 9;
+} --*/
+/* Show fixed navbar on desktop */
+@media (min-width: 992px) {
+  .navbar { display: flex; }
+  #navbar, .nav-overlay { display: none; }
+}
+
+/* Show overlay on mobile */
+@media (max-width: 991px) {
+  .navbar { display: none; }
+  #navbar, .nav-overlay { display: block; }
 }
 
 .nav-overlay:before,
@@ -1091,8 +1155,31 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 /*----- 6.3 Billboard
 --------------------------------------------------------------*/
+
+#billboard {
+  position: relative;
+  overflow: visible; /* allow image to overflow the section */
+}
+
+
 #billboard .banner-content {
-  padding-bottom: 180px;
+  padding-bottom: 80px;
+  padding-top: 80px; /* adjust based on your header height */
+}
+
+#billboard .col-lg-6:last-child {
+  position: relative; /* make image positioning relative to this column */
+}
+
+#billboard .col-lg-6:last-child img {
+  display: block;
+  width: 130%; /* make image bigger */
+  height: auto;
+  position: absolute;
+  right: 0;
+  bottom: -39px; /* push bottom part below the section */
+  object-fit: cover;
+  z-index: 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -1101,8 +1188,16 @@ body.nav-active .nav__list-item:nth-child(10) {
   }
 
   #billboard .banner-content {
-    padding-top: 150px;
+    padding-top: 100px;
     padding-bottom: 10px;
+  }
+
+  #billboard .col-lg-6:last-child img {
+    position: relative;
+    width: 100%;
+    bottom: auto;
+    right: auto;
+    margin-top: 20px;
   }
 }
 
@@ -1166,11 +1261,26 @@ body.nav-active .nav__list-item:nth-child(10) {
   width: 80%;
 }
 
-/*----- 6.5 Portfolio Section
---------------------------------------------------------------*/
+
+/*-- Academics --*/
+#post-grid .post-item img {
+    width: 100%;              /* take full width of container */
+    height: 350px;            /* fixed height */
+    object-fit: cover;        /* crop image while keeping proportion */
+    border-radius: 8px;      /* optional rounded corners */
+}
+
+#post-grid .post-item:hover img {
+    filter: brightness(40%); /* darker (50% brightness) */
+}
+
+/*----- 6.5 Portfolio Section---*/
 .portfolio-item .portfolio-image {
   width: 100%;
-  object-fit: cover;
+  height: 250px !important;    /* fixed height of the card */
+  object-fit: cover !important; /* <-- for stretches: fill */
+  object-position: center;     /* center the image inside the box */
+  border-radius: 8px;          /* optional */
 }
 
 .portfolio-item .portfolio-item img {
@@ -1245,6 +1355,12 @@ body.nav-active .nav__list-item:nth-child(10) {
     width: 85%;
   }
 }
+/* responsive portfolio images */
+@media (max-width: 768px) {
+  .portfolio-image-bg {
+    height: 180px;
+  }
+}
 
 /*----- 6.7 Achievement Section
 --------------------------------------------------------------*/
@@ -1252,10 +1368,19 @@ body.nav-active .nav__list-item:nth-child(10) {
   border-bottom: 1px solid #E2E2E2;
   padding-bottom: 30px;
   margin-bottom: 60px;
+
+  display: flex;          /* make the block a flex container */
+  flex-direction: column; /* stack content vertically */
+  height: 100%;           /* allow it to stretch */
 }
 
 #achievement .achievement-block h3 {
   margin-bottom: 10px;
+}
+
+/* ensure the inner content stretches to fill */
+#achievement .achievement-block .achievement-content {
+  flex: 1; /* fill available space */
 }
 
 
@@ -1274,7 +1399,7 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 #post-grid a.post-link:before {
   content: '';
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient( to bottom, rgba(0, 0, 0, 0) 0%,  rgba(0, 0, 0, 0.9) 100% );
   width: 100%;
   height: 50%;
   position: absolute;
@@ -1306,6 +1431,39 @@ body.nav-active .nav__list-item:nth-child(10) {
   font-weight: 700;
 }
 
+/* ---- 6.9 testimonial cards equal height---- */
+
+#testimonials .swiper-slide {
+  display: flex;           /* enable flex inside the slide */
+  height: 100%;            /* let slide fill parent */
+}
+
+#testimonials .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* spacing between cards */
+}
+
+#testimonials .card.testimonials-inner {
+  flex: 1;                 /* fill the slide height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make card-body expand to fill available space */
+#testimonials .card.testimonials-inner .card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#testimonials .swiper-slide {
+  display: flex;           /* enable flex inside the slide */
+  height: 100%;            /* let slide fill parent */
+}
+
+
 /*----- 6.10 Footer
 --------------------------------------------------------------*/
 
@@ -1330,6 +1488,39 @@ body.nav-active .nav__list-item:nth-child(10) {
 
 
 /*-- Footer Bottom --*/
+.footer-section {
+    position: relative;
+    color: white;
+    overflow: hidden; /* ensure content stays inside */
+}
+
+.footer-banner {
+    position: relative;
+}
+
+.footer-banner img {
+    width: 100%;      /* full width of footer */
+    height: auto;
+    display: block;
+}
+
+.footer-banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+}
+
+.footer-content {
+    position: relative;
+    z-index: 1; /* make content appear on top of overlay */
+    padding: 40px 0;
+    text-align: center;
+}
+
+
 
 #footer-bottom .social-links ul {
   display: flex;

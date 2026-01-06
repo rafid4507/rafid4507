@@ -1,8 +1,5 @@
 ### Hi, this is Rafid
-
-I am curretnly writing my Bachelor thesis on LLM based OCR techniques to reduce Personal Health Information (PHI) leakage from hospital documents; under a company called Nubedian GmbH at Karlsruhe.
-I am in my last semester of Artifcial Intelligence Bachelor program and exploring the world of AI. 
-I am learning Deutsch on top of kubernetes.
+#### an AI student at Technishce Hochschule Ingolstadt with a strong focus on secure AI implementation. I am currently writing my Bachelor's thesis at Nubedian GmbH, researching LLM-based OCR techniques to prevent Personal Health Information (PHI) leakage in hospital documentation. In my role as a Junior AI Developer, I specialize in building autonomous AI Agents and RAG pipelines using the Model Context Protocol (MCP). I am passionate about bridging the gap between cutting-edge AI research and practical, secure process automation.
 
 ### Tech Stack
 #### Automation

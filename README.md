@@ -28,8 +28,10 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 
-### Github stats
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafid4507&layout=pie))](https://github.com/anuraghazra/github-readme-stats)
+### GitHub Stats
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafid4507&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
+![Rafid's GitHub stats](https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=radar)
 
 
 <!--

@@ -30,8 +30,8 @@
 
 ### GitHub Stats
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=radical)
-![Rafid's GitHub stats](https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=radar)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=transparent)
+
 
 
 <!--

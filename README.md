@@ -1,5 +1,7 @@
-### Hi, this is Rafid
-#### an AI student at Technishce Hochschule Ingolstadt with a strong focus on secure AI implementation. I am currently writing my Bachelor's thesis at Nubedian GmbH, researching LLM-based OCR techniques to prevent Personal Health Information (PHI) leakage in hospital documentation. In my role as a Junior AI Developer, I specialize in building autonomous AI Agents and RAG pipelines using the Model Context Protocol (MCP). I am passionate about bridging the gap between cutting-edge AI research and practical, secure process automation.
+### Hi, Rafid here.
+#### AI/ML Engineer with 2+ years of hands-on experience building and deploying production AI systems on Microsoft Azure — including LLM-powered RAG chatbots, agentic AI workflows, and multimodal OCR microservices. Experienced in end-to-end Azure deployment, CI/CD pipelines, containerisation (Docker/Kubernetes), and secure access management. Proven track record: 99% accuracy on a live RAG chatbot and 98% OCR accuracy on HIPAA-compliant medical document pipelines. Actively advancing cloud architecture and DevOps knowledge to bridge AI engineering and cloud platform roles. Graduating June 2026.
+Core focus: Azure Cloud (AKS, App Services, Key Vault, Entra ID) · DevOps & CI/CD · LLM Agents & RAG · MLOps · Infrastructure as Code · Secure AI Deployment
+
 
 ### Tech Stack
 #### Automation

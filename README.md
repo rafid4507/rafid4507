@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rafidul Rafid
+# Rafid
 
 ### AI / ML Engineer & Cloud Platform Enthusiast, IT Administrator, Data Analyst
 
@@ -64,29 +64,10 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 | Project | Highlights & Metrics | Architecture / Stack | Repository |
 | :--- | :--- | :--- | :---: |
-| **Secure-MedOCR** | HIPAA-compliant pipeline delivering **98% OCR accuracy** via masked language modeling and token masking. | PyTorch, FastAPI, Docker, OpenCV | [View Code]([https://github.com/rafid4507](https://github.com/rafid4507/multimodal-llm-doc-parser)) |
-| **Production RAG Engine** | Enterprise retrieval chatbot with **99% accuracy**, vector indexing, and Entra ID authentication. | Azure AKS, LangChain, Key Vault, Postgres | [View Code]([https://github.com/rafid4507](https://github.com/rafid4507/RAG_based_AI_agent)) |
-| **Agentic AI Workflow** | Stateful multi-agent orchestration for dynamic document routing and reasoning tasks. | LangGraph, Ollama, Python, Docker | [View Code](https://github.com/rafid4507) |
+| **Secure-MedOCR** | HIPAA-compliant pipeline delivering **98% OCR accuracy** via masked language modeling and token masking. | PyTorch, FastAPI, Docker, OpenCV | [View Code](https://github.com/rafid4507/Document_anonymiser) |
+| **Production RAG Engine** | Enterprise retrieval chatbot with **99% accuracy**, vector indexing, and Entra ID authentication. | Azure AKS, LangChain, Key Vault, Postgres | [View Code](https://github.com/rafid4507/RAG_based_AI_agent) |
+| **Agentic AI Workflow** | Stateful multi-agent orchestration for dynamic document routing and reasoning tasks. | LangGraph, Ollama, Python, Docker | [View Code](https://github.com/rafid4507/automated_chatbot) |
 | **MRI Distorted Image Correction** | Deep learning reconstruction & artifact correction framework restoring high-fidelity anatomical MRI scans. | PyTorch, OpenCV, NumPy, Python | [View Code](https://github.com/rafid4507/MRI_Distorted_Image_Correction) |
-
----
-
-### Pinned Repositories
-
-<p align="center">
-  <a href="https://github.com/rafid4507/MRI_Distorted_Image_Correction">
-    <img src="https://github.com/rafid4507/MRI_Distorted_Image_Correction&repo=MRI_Distorted_Image_Correction&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/rafid4507/RAG_based_AI_agent">
-    <img src="https://github.com/rafid4507/RAG_based_AI_agent&repo=Production RAG Engine&theme=tokyonight&hide_border=true" />
-  </a>
-    <a href="https://github.com/rafid4507/multimodal-llm-doc-parser">
-    <img src="https://github.com/rafid4507/multimodal-llm-doc-parser"&repo=Production RAG Engine&theme=tokyonight&hide_border=true" />
-  </a>
-
-
-  https://github.com/rafid4507/multimodal-llm-doc-parser
-</p>
 
 ---
 
@@ -99,10 +80,6 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rafid4507&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rafid4507&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
 ---

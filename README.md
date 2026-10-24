@@ -1,28 +1,28 @@
 <div align="center">
 
-# 👨‍💻 Rafid
+# Rafidul Rafid
 
-### AI / ML Engineer & Cloud Platform Enthusiast
+### AI / ML Engineer & Cloud Platform Enthusiast, IT Administrator, Data Analyst
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:YOUR_EMAIL@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/rafid4507"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="www.linkedin.com/in/rafid4507"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:rafid.4507@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://rafid4507.github.io/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Profile" /></a>
 </p>
 
 ---
 
-### 📌 About Me
+### About Me
 
 AI/ML Engineer with **2+ years of hands-on experience** architecting and deploying production AI systems on **Microsoft Azure** — including LLM-powered RAG chatbots, agentic workflows, and multimodal OCR microservices.
 
 Experienced in end-to-end Azure deployments, containerization (**Docker / Kubernetes**), CI/CD pipelines, and enterprise identity management. Proven track record of **99% accuracy on a live RAG chatbot** and **98% OCR accuracy on HIPAA-compliant medical document pipelines**.
 
-**Graduating July 2026** · Focused on bridging AI Engineering and Cloud Platform DevOps.
+**Graduating January 2027** · Focused on bridging AI Engineering and Cloud Platform DevOps.
 
 ---
 
-### 🛠️ Tech Stack & Tooling
+### Tech Stack & Tooling
 
 #### Cloud & Infrastructure
 <p align="center">
@@ -60,7 +60,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 ---
 
-### 🚀 Key Projects
+### Key Projects
 
 | Project | Highlights & Metrics | Architecture / Stack | Repository |
 | :--- | :--- | :--- | :---: |
@@ -71,7 +71,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 ---
 
-### 📌 Pinned Repositories
+### Pinned Repositories
 
 <p align="center">
   <a href="https://github.com/rafid4507">
@@ -84,7 +84,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 ---
 
-### 📊 GitHub Activity & Contribution Metrics
+### GitHub Activity & Contribution Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rafid's GitHub Stats" />
@@ -102,7 +102,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 ---
 
 <p align="center">
-  ⚡ <i>"Bridging intelligent algorithms with reliable cloud systems."</i>
+  <i>"Bridging intelligent algorithms with reliable cloud systems."</i>
 </p>
 
 </div>

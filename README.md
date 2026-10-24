@@ -12,8 +12,6 @@
 
 ---
 
-### About Me
-
 AI/ML Engineer with **2+ years of hands-on experience** architecting and deploying production AI systems on **Microsoft Azure** — including LLM-powered RAG chatbots, agentic workflows, and multimodal OCR microservices.
 
 Experienced in end-to-end Azure deployments, containerization (**Docker / Kubernetes**), CI/CD pipelines, and enterprise identity management. Proven track record of **99% accuracy on a live RAG chatbot** and **98% OCR accuracy on HIPAA-compliant medical document pipelines**.
@@ -74,7 +72,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 ### GitHub Activity & Contribution Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rafid's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafid4507&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 

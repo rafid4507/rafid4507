@@ -7,7 +7,7 @@
 <p align="center">
   <a href="www.linkedin.com/in/rafid4507"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:rafid.4507@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://rafid4507.github.io/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Profile" /></a>
+  <a href="https://rafid4507.github.io/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=profile&logoColor=white" alt="Profile" /></a>
 </p>
 
 ---

@@ -7,7 +7,7 @@
 <p align="center">
   <a href="www.linkedin.com/in/rafid4507"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:rafid.4507@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://rafid4507.github.io/"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=profile&logoColor=white" alt="Profile" /></a>
+  <a href="https://rafid4507.github.io/"><img src="https://img.shields.io/badge/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 ---
@@ -64,22 +64,28 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 
 | Project | Highlights & Metrics | Architecture / Stack | Repository |
 | :--- | :--- | :--- | :---: |
-| **Secure-MedOCR** | HIPAA-compliant pipeline delivering **98% OCR accuracy** via masked language modeling and token masking. | PyTorch, FastAPI, Docker, OpenCV | [View Code](https://github.com/rafid4507) |
-| **Production RAG Engine** | Enterprise retrieval chatbot with **99% accuracy**, vector indexing, and Entra ID authentication. | Azure AKS, LangChain, Key Vault, Postgres | [View Code](https://github.com/rafid4507) |
+| **Secure-MedOCR** | HIPAA-compliant pipeline delivering **98% OCR accuracy** via masked language modeling and token masking. | PyTorch, FastAPI, Docker, OpenCV | [View Code]([https://github.com/rafid4507](https://github.com/rafid4507/multimodal-llm-doc-parser)) |
+| **Production RAG Engine** | Enterprise retrieval chatbot with **99% accuracy**, vector indexing, and Entra ID authentication. | Azure AKS, LangChain, Key Vault, Postgres | [View Code]([https://github.com/rafid4507](https://github.com/rafid4507/RAG_based_AI_agent)) |
 | **Agentic AI Workflow** | Stateful multi-agent orchestration for dynamic document routing and reasoning tasks. | LangGraph, Ollama, Python, Docker | [View Code](https://github.com/rafid4507) |
-| **Telemetry & Vision Core** | Real-time vehicle sensor prototyping, computer vision edge inference, and aerodynamic simulation. | C++, Python, YOLO, MATLAB/Simulink | [View Code](https://github.com/rafid4507) |
+| **MRI Distorted Image Correction** | Deep learning reconstruction & artifact correction framework restoring high-fidelity anatomical MRI scans. | PyTorch, OpenCV, NumPy, Python | [View Code](https://github.com/rafid4507/MRI_Distorted_Image_Correction) |
 
 ---
 
 ### Pinned Repositories
 
 <p align="center">
-  <a href="https://github.com/rafid4507">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rafid4507&repo=Secure-MedOCR&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/rafid4507/MRI_Distorted_Image_Correction">
+    <img src="https://github.com/rafid4507/MRI_Distorted_Image_Correction&repo=MRI_Distorted_Image_Correction&theme=tokyonight&hide_border=true" />
   </a>
-  <a href="https://github.com/rafid4507">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=rafid4507&repo=Azure-RAG-Chatbot&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/rafid4507/RAG_based_AI_agent">
+    <img src="https://github.com/rafid4507/RAG_based_AI_agent&repo=Production RAG Engine&theme=tokyonight&hide_border=true" />
   </a>
+    <a href="https://github.com/rafid4507/multimodal-llm-doc-parser">
+    <img src="https://github.com/rafid4507/multimodal-llm-doc-parser"&repo=Production RAG Engine&theme=tokyonight&hide_border=true" />
+  </a>
+
+
+  https://github.com/rafid4507/multimodal-llm-doc-parser
 </p>
 
 ---

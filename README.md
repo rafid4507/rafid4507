@@ -72,7 +72,7 @@ Experienced in end-to-end Azure deployments, containerization (**Docker / Kubern
 ### GitHub Activity & Contribution Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rafid4507&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rafid4507&custom_title=GitHub%20Stats&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />    
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafid4507&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
